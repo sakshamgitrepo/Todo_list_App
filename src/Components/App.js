@@ -2,7 +2,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Content from "./Content";
 import AddItem from "./AddItem";
-import { useState } from "react";
+import React,{ useState } from "react";
 
 function App() {
   const [items, setItems] = useState(

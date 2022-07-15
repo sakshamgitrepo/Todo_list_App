@@ -1,4 +1,5 @@
 import ItemList from "./ItemList";
+import React from "react";
 
 function Content({items,handleCheck,handleDelete}) {
  
