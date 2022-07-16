@@ -10,7 +10,7 @@ function Content({items,handleCheck,handleDelete}) {
       handleCheck={handleCheck}
       handleDelete={handleDelete} />
     ):(
-        <p style={{marginTop:'2rem',fontSize:'1.3rem'}}>Empty List</p>
+        <p style={{marginTop:'2rem',fontSize:'1.3rem'}}>List Is Empty</p>
     )}
     </main>
   );
